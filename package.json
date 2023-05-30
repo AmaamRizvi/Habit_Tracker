@@ -8,16 +8,8 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rahulsups/habit-tracker.git"
-  },
-  "author": "Rahul",
+  "author": "Amaan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/rahulsups/habit-tracker/issues"
-  },
-  "homepage": "https://github.com/rahulsups/habit-tracker#readme",
   "dependencies": {
     "connect-flash": "^0.1.1",
     "dotenv": "^8.2.0",
