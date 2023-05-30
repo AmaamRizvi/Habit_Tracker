@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/rahulsups/habit-tracker/issues"
   },
-  "homepage": "https://github.com/AmaamRizvi/Habit_Tracker/blob/main/README.md",
+  "homepage": "https://github.com/rahulsups/habit-tracker#readme",
   "dependencies": {
     "connect-flash": "^0.1.1",
     "dotenv": "^8.2.0",
