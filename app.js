@@ -9,12 +9,7 @@ const session = require('express-session');
 const app = express();
 
 //-----DB Config---------//
-const db = require('./config/keys').MongoURI;
-
-//------Connect to Mongo--------//
-mongoose.connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log("Connected to MongoDB successfully!"))
-    .catch(err => console.log(err));
+require('./config/db')
 
 //-----EJS---------//
 app.use(expressLayouts);
